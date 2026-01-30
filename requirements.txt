@@ -1,0 +1,12 @@
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+openpyxl
+xlrd
+python-dotenv
+openai
+PyQt5
+pyqt5-tools

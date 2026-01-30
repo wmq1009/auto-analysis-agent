@@ -1,0 +1,19 @@
+## 时序性分析结果
+
+- 结局类型：连续性结局
+- 分析方法：重复测量方差分析
+- 因变量：systolic_bp
+- 时间变量：time_point
+- 受试者ID：patient_id
+- 分组变量：smoking
+- 协变量：['age', 'bmi', 'gender', 'hypertension', 'diabetes', 'glucose', 'cholesterol']
+
+详细结果：
+重复测量方差分析结果：
+
+        Source           SS  ...       np2       eps
+0      smoking    52.215000  ...  0.003252       NaN
+1   time_point  1539.544400  ...  0.355360  0.883418
+2  Interaction   140.384667  ...  0.047861       NaN
+
+[3 rows x 9 columns]
